@@ -1,6 +1,4 @@
-import React from "react";
 import ThemeToggle from "./theme-toggle";
-import { Ham, Hamburger, Menu } from "lucide-react";
 
 export default function () {
   return (
