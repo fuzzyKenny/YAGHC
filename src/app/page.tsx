@@ -1,6 +1,6 @@
-import { OpenSidebar } from "@/components/custom-sidebar";
+import { Separator } from "@/components/ui/separator";
 import { AppSidebar } from "@/components/app-sidebar";
-import ThemeToggle from "@/components/theme-toggle";
+import Nav from "@/components/nav";
 
 export default function Home() {
   return (
@@ -8,6 +8,7 @@ export default function Home() {
       <div className="max-h-screen absolute">
         <AppSidebar />
       </div>
+      <Nav />
     </>
   );
 }
